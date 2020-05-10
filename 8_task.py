@@ -56,7 +56,8 @@ def print_info(friends):
                     city = i["city"]["title"]
                 result = "{0:15} {1:20} {2:15} {3:15} {4:20} vk.com/{5}".format(first, last, bdate, country, city, u_id)
                 print(result)
-    #"   vk.com/id" + str(i["id"])
+
+
 if __name__ == "__main__":
     key += input("Введите сервисный ключ: ")
     url = input("Введите ссылку на пользователя: ")
