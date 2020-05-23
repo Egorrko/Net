@@ -12,7 +12,7 @@ users_get = "users.get?fields=sex,bdate,city,country&user_ids="
 count_lines = 300
 
 def get_id(url):
-    url = re.search(r"vk\.com\/(\w+)",url)
+    url = re.search(r"vk\.com\/(.+)",url)
     if(not url):
         return False
     user = url.group(1)
