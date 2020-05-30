@@ -61,6 +61,7 @@ def print_info(friends):
 if __name__ == "__main__":
     key += input("Введите сервисный ключ: ")
     url = input("Введите ссылку на пользователя: ")
+    print()
     user_id = get_id(url)
     if(not user_id):
         print("Неверная ссылка на пользователя")
